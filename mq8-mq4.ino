@@ -20,6 +20,13 @@ void loop(){
   Serial.println(sensorValueMQ4);
   Serial.println("MQ8:");
   Serial.println(sensorValueMQ8);
-  delay(sensorPinMQ4); //delays value = sensors values (we need )
-  delay(sensorPinMQ8);
+  delay(sensorPinMQ4); //delays value = sensors values
+  delay(sensorPinMQ8); //delays value = sensors values, because;
+  
+  /*For example, if a sensor can give data at intervals of 2 seconds, 
+  we will have problems with burning or deterioration at any time 
+  under 2 seconds. For this reason, we prevent our sensors from 
+  deteriorating by ensuring that the sensor gives data as enough 
+  intervals as it can.*/
+  
 }

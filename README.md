@@ -1,2 +1,2 @@
 # MQ4-MQ8_for_Arduino-UNO
-Please read the readme file.
+There are no codes available for simultaneous use for the MQ-4 and MQ-8 on the Internet. I created a sample code for new Arduino users and those with analogue reading difficulties. It is a very suitable code example for those who do not know how to read more than one analogue at the same time. An example of float type value assignment is also available for the delay command. Suitable for AtMEGA328 and AtMEGA328P microprocessors. (For other processors, please look at the datasheets, find the analogue outputs, and modify the code.)
